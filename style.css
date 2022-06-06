@@ -1,0 +1,141 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #88BFE6;
+    font-family:fuente-1;
+
+    
+}
+@font-face{
+    font-family: fuente-1;
+    src:url("/trabajo 3/fuentes/Lato-Light.ttf")    
+}
+
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    background-color:#0F1923;
+    height: 100%;
+
+}
+.nav{
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color:#FE4755;
+    padding: 15px;
+    cursor: pointer;
+    
+}
+#boton-1{
+    margin: 15px;
+}
+button:hover{
+    cursor: pointer;
+}
+header{
+    width: 100vw;
+   
+}
+
+.gif{
+    width: 100%;
+    height: 100px;
+    display: flex;
+} 
+.seccion-1{
+    margin: 0%;
+    padding:0%;
+    background-color:#101720;
+    width: 100vw;
+    height: 410px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+h1{
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    font-size: 2.5em;
+}
+.conteiner-padre1{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.conteiner1{
+    width: 40%;
+    margin: 0%;
+    
+ 
+}
+.conteiner1 > p{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-size: 1.5em;
+}
+
+
+#img1{
+    height: 40vh;
+    width: 600px;
+    margin: 10px;
+    
+    border-radius: 20px;   
+    
+}
+.conteiner1 > button{
+   background-color:#2C4A69;
+   color: white;
+   width: 110px;
+   height: 50px;
+   border-radius: 20px;
+   border: none;
+   
+}
+.conteiner1 > button:hover{
+    background-color: #FE4755;
+}
+.seccion-2{
+    margin: 0%;
+    padding: 0%;
+    background-color: #2C4A69;
+    width: 100vw;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.div-2{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+.div-2 h2{
+    color: white;
+    font-size: 2em;
+    font-family: fuente-1;    
+}
+
+
+
